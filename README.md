@@ -1,4 +1,4 @@
-# Kasey Pelchy
+# Kasey Alexander Pelchy
 
 Marketing Manager building practical tools with data, automation, AI, and code.
 
