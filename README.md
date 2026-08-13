@@ -1,28 +1,35 @@
 # Kasey Alexander Pelchy
 
-Marketing Manager building practical tools with data, automation, AI, and code.
+Marketing Manager working across marketing strategy, operations, data, automation, AI, and software development.
 
-I work across marketing, operations, data, and software. A lot of the projects I build come from problems I run into at work — too much manual work, disconnected information, reporting that takes too long, or processes that could be handled better with the right tool.
+I build systems when the tools or processes I need do not already exist. My work has included marketing automation, operational platforms, AI-powered quality and coaching systems, geospatial data pipelines, SEO/AEO infrastructure, reporting, analytics, and internal business tools.
+
+Most of these projects started with a real business problem — too much manual work, disconnected data, limited visibility, inconsistent processes, or something that was difficult to scale — and grew into systems designed to make the work faster, clearer, and more useful.
 
 ---
 
-## What I Work With
+## Areas I Work Across
 
-- TypeScript / JavaScript
-- Python
-- PHP
-- SQL / PostgreSQL
-- PL/pgSQL
-- DuckDB
-- Supabase
-- Vercel
-- Google Cloud
-- WordPress
-- REST APIs
-- AI / LLM workflows
-- Data analytics
-- Automation
-- Geospatial data
+- Marketing Strategy & Operations
+- Marketing Technology
+- Data Analytics & Reporting
+- Process Automation
+- AI / LLM Systems
+- Application Development
+- Data Engineering
+- Database Design
+- Geospatial Data
+- SEO / AEO
+- Internal Tools
+- Workflow Design
+- Operational Reporting
+- Cross-System Data Integration
+
+---
+
+## Technology
+
+TypeScript · JavaScript · Python · PHP · SQL · PostgreSQL · PL/pgSQL · DuckDB · Supabase · Vercel · Google Cloud · WordPress · REST APIs · HTML / CSS · JSON-LD
 
 ---
 
@@ -30,9 +37,11 @@ I work across marketing, operations, data, and software. A lot of the projects I
 
 ### Field Sales Operations Platform
 
-I built a field-sales platform to manage territories, addresses, door-to-door activity, sales, installation scheduling, invoicing, and reporting.
+I built a field-sales operations platform to manage territories, addresses, door-to-door activity, sales, installation scheduling, invoicing, reporting, and management oversight.
 
-It gives field reps a map-based workflow for working addresses and gives operations and management a way to track sales activity, install capacity, territory performance, and rep activity in one place.
+The platform gives field representatives a map-based workflow for working addresses and gives operations and management a central place to track sales activity, install capacity, territory performance, rep activity, scheduling, and operational trends.
+
+The project involved more than building a front-end application. It required database design, transactional workflows, scheduling logic, reporting, territory management, auditability, data quality controls, role-based access, imports, and production support.
 
 **Stack:** TypeScript · PostgreSQL · Supabase · Vercel · SQL / PL/pgSQL
 
@@ -44,11 +53,13 @@ It gives field reps a map-based workflow for working addresses and gives operati
 
 ### AI Call Quality & Coaching Platform
 
-I built an AI-powered QA and coaching platform for customer service calls.
+I built an AI-powered quality assurance and coaching platform for customer service calls.
 
-The system processes calls in the background, evaluates them against QA standards, stores structured results, generates coaching recommendations, tracks coaching follow-up, and gives management reporting on performance and trends.
+The system processes calls in the background, evaluates them against structured QA standards, stores the results, generates coaching recommendations, supports one-on-one coaching workflows, and gives management visibility into performance and trends.
 
-It also includes queue-based processing, Python workers, automated notifications, duplicate handling, processing health, and role-based dashboards.
+It also includes queue-based processing, Python workers, automated notifications, duplicate handling, error recovery, processing-health monitoring, coaching follow-up, role-based dashboards, analytics, and structured reporting.
+
+The project combines AI with operational workflow design rather than using AI as a standalone feature.
 
 **Stack:** Python · TypeScript · PostgreSQL · Supabase · Google Cloud · Vercel · AI / LLMs · Task Queues
 
@@ -60,11 +71,13 @@ It also includes queue-based processing, Python workers, automated notifications
 
 ### Fiber Service Area Mapping Pipeline
 
-I built a geospatial data pipeline that takes fiber service-area KMZ files and turns them into structured address datasets that are ready for import.
+I built a geospatial data pipeline that takes fiber service-area KMZ files and turns them into structured address datasets that are ready for operational use.
 
-The process compares service-area polygons against address coordinates in DuckDB, enriches the matched records with Census data, then matches them against FCC Broadband Fabric data to append additional location information such as building type, land-use type, BSL status, and other required Fabric fields.
+The process compares service-area polygons against address coordinates in DuckDB to identify which locations fall within a network footprint. Those matched records are then enriched with Census data and matched against FCC Broadband Fabric data to append additional location information such as building type, land-use type, BSL status, and other required Fabric attributes.
 
-The final output is cleaned, validated, deduplicated, and structured for downstream marketing, sales, and operational systems.
+The final output is normalized, validated, deduplicated, and structured for downstream marketing, sales, mapping, and operational systems.
+
+This project brought together geospatial processing, large address datasets, government datasets, data quality, enrichment, and import-ready transformation.
 
 **Stack:** Python · DuckDB · SQL · KMZ / KML · Census Data · FCC Broadband Fabric · Geospatial Processing
 
@@ -78,7 +91,9 @@ The final output is cleaned, validated, deduplicated, and structured for downstr
 
 I built a database-driven SEO and AEO content platform that connects WordPress to structured market-level content stored in Supabase.
 
-A custom WordPress plugin resolves the current page path, retrieves the matching SEO/AEO record, and feeds that data into a reusable local-market template. The same page architecture can then support different towns, states, technologies, titles, headings, FAQs, metadata, and structured data without manually rebuilding each page.
+A custom WordPress plugin resolves the current page path, retrieves the matching SEO/AEO record, and feeds that data into a reusable local-market template. The same page architecture can support different towns, states, technologies, titles, headings, FAQs, metadata, and structured data without manually rebuilding each page.
+
+The system also includes dynamic fallback logic, structured FAQ handling, server-rendered metadata, JSON-LD, canonical handling, technology-aware content, and separation between production configuration and page content.
 
 The public showcase includes a sanitized PHP template example along with synthetic Supabase records and API responses.
 
@@ -90,13 +105,53 @@ The public showcase includes a sanitized PHP template example along with synthet
 
 ---
 
-## What I Like Building
+## How I Approach Problems
 
-I tend to build things that solve a real problem.
+I tend to start with the process rather than the technology.
 
-Sometimes that is a full application. Other times it is a data pipeline, reporting system, automation, database workflow, or a better way to connect information that already exists.
+I look at what is taking too long, where information is disconnected, where people are repeating the same work, where reporting is difficult, or where an existing tool does not fit the actual workflow.
 
-I enjoy taking a process that is messy or heavily manual and figuring out how to make it work better.
+From there, I figure out what would make the process work better.
+
+Sometimes the answer is a full application.
+
+Sometimes it is a database workflow, API integration, automation, reporting layer, data pipeline, geospatial process, or a better way to connect systems that already exist.
+
+The technology is usually a means to solve the business problem rather than the starting point.
+
+---
+
+## The Kind of Work I Have Been Doing
+
+My work has increasingly involved connecting traditionally separate areas:
+
+**Marketing + Data**  
+Using customer, market, service-area, FCC, campaign, and operational data to improve targeting, reporting, and decision-making.
+
+**Marketing + Software**  
+Building tools and platforms when existing marketing systems do not support the workflow that is needed.
+
+**Operations + Automation**  
+Replacing repetitive manual processes with structured workflows, rules, notifications, and reporting.
+
+**AI + Business Processes**  
+Using AI inside controlled operational systems for analysis, quality review, coaching, classification, and structured insight.
+
+**Data + Geography**  
+Working with service-area boundaries, addresses, Census information, FCC data, spatial matching, and territory analysis.
+
+**SEO + Technology**  
+Building structured content systems that separate page data from presentation and allow localized content to scale.
+
+---
+
+## What I Bring
+
+I am comfortable moving between the business side and the technical side of a problem.
+
+That can mean discussing a marketing objective, mapping the workflow, defining the data needed, designing the database, writing the application or automation, testing the result, and then using the output to support real operational decisions.
+
+My background has pushed me toward work where I need to understand not only how something is built, but why it should exist and how people will actually use it.
 
 ---
 
@@ -105,14 +160,15 @@ I enjoy taking a process that is messy or heavily manual and figuring out how to
 Continuing to deepen my work in:
 
 - AI systems
-- Application design
+- Application architecture
 - Database architecture
 - Data engineering
 - Geospatial data processing
 - Marketing technology
-- Automation
+- Process automation
 - Analytics
 - Cloud-based workflows
+- Scalable content systems
 
 ---
 
