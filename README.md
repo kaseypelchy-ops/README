@@ -10,15 +10,19 @@ I work across marketing, operations, data, and software. A lot of the projects I
 
 - TypeScript / JavaScript
 - Python
+- PHP
 - SQL / PostgreSQL
 - PL/pgSQL
+- DuckDB
 - Supabase
 - Vercel
 - Google Cloud
+- WordPress
 - REST APIs
 - AI / LLM workflows
 - Data analytics
 - Automation
+- Geospatial data
 
 ---
 
@@ -32,7 +36,7 @@ It gives field reps a map-based workflow for working addresses and gives operati
 
 **Stack:** TypeScript · PostgreSQL · Supabase · Vercel · SQL / PL/pgSQL
 
-**[View the FieldOS showcase →](YOUR-FIELDOS-SHOWCASE-URL)**
+**[View the FieldOS showcase →](https://github.com/kaseypelchy-ops/fieldos-project-showcase)**
 
 > The production source is private because it contains internal business logic, company workflows, and infrastructure details.
 
@@ -48,7 +52,7 @@ It also includes queue-based processing, Python workers, automated notifications
 
 **Stack:** Python · TypeScript · PostgreSQL · Supabase · Google Cloud · Vercel · AI / LLMs · Task Queues
 
-**[View the AI QA & Coaching showcase →](YOUR-QA-SHOWCASE-URL)**
+**[View the AI QA & Coaching showcase →](https://github.com/kaseypelchy-ops/ai-call-quality-platform-showcase)**
 
 > The production source is private because it contains internal QA standards, company workflows, and infrastructure details.
 
@@ -58,49 +62,31 @@ It also includes queue-based processing, Python workers, automated notifications
 
 I built a geospatial data pipeline that takes fiber service-area KMZ files and turns them into structured address datasets that are ready for import.
 
-The process compares the fiber polygons against address coordinates stored in DuckDB to determine which addresses fall inside the service area. Those records are then enriched with Census data and matched against FCC Broadband Fabric data to append additional location information such as building type, land-use type, BSL status, and other required Fabric fields.
+The process compares service-area polygons against address coordinates in DuckDB, enriches the matched records with Census data, then matches them against FCC Broadband Fabric data to append additional location information such as building type, land-use type, BSL status, and other required Fabric fields.
 
-The final output is cleaned, validated, deduplicated, and structured for use in downstream marketing, sales, and operational systems.
+The final output is cleaned, validated, deduplicated, and structured for downstream marketing, sales, and operational systems.
 
 **Stack:** Python · DuckDB · SQL · KMZ / KML · Census Data · FCC Broadband Fabric · Geospatial Processing
 
-**Key areas:**
-
-- KMZ / KML parsing
-- Polygon and MultiPolygon processing
-- Point-in-polygon spatial matching
-- Large address dataset processing with DuckDB
-- Census data enrichment
-- FCC Broadband Fabric matching
-- Building-type and land-use enrichment
-- BSL attribute handling
-- Data normalization and validation
-- Deduplication
-- Structured import-ready output
-
-**[View the Fiber Mapping showcase →](YOUR-FIBER-MAPPING-SHOWCASE-URL)**
+**[View the Fiber Mapping showcase →](https://github.com/kaseypelchy-ops/fiber-service-area-mapping-showcase)**
 
 > Production source code and datasets are private because they contain proprietary service-area information, internal address data, restricted reference data, and company-specific processing logic.
 
 ---
 
-### Marketing & Data Automation
+### SEO & AEO Content Platform
 
-A lot of my other work focuses on using data to make marketing and operations more useful.
+I built a database-driven SEO and AEO content platform that connects WordPress to structured market-level content stored in Supabase.
 
-That includes things like:
+A custom WordPress plugin resolves the current page path, retrieves the matching SEO/AEO record, and feeds that data into a reusable local-market template. The same page architecture can then support different towns, states, technologies, titles, headings, FAQs, metadata, and structured data without manually rebuilding each page.
 
-- FCC broadband and location data
-- Service-area and address matching
-- Market and competitor research
-- Direct-mail targeting
-- Territory reporting
-- Data cleanup
-- Marketing segmentation
-- Automated reporting
-- Cross-system data matching
+The public showcase includes a sanitized PHP template example along with synthetic Supabase records and API responses.
 
-**Focus:** SQL · APIs · Data Matching · Marketing Automation · Analytics
+**Stack:** PHP · WordPress · Supabase · PostgreSQL · REST APIs · HTML / CSS · JSON-LD · SEO / AEO
+
+**[View the SEO & AEO Platform showcase →](https://github.com/kaseypelchy-ops/seo-aeo-content-platform-showcase)**
+
+> Production source code, market content, credentials, and company-specific configuration are maintained privately.
 
 ---
 
@@ -108,19 +94,22 @@ That includes things like:
 
 I tend to build things that solve a real problem.
 
-Sometimes that is an application. Sometimes it is a database workflow, a reporting system, an automation, or a better way to connect data that already exists.
+Sometimes that is a full application. Other times it is a data pipeline, reporting system, automation, database workflow, or a better way to connect information that already exists.
 
-I enjoy the part where a messy process starts to make sense.
+I enjoy taking a process that is messy or heavily manual and figuring out how to make it work better.
 
 ---
 
 ## Currently Working On
 
-Continuing to improve my skills in:
+Continuing to deepen my work in:
 
 - AI systems
 - Application design
 - Database architecture
+- Data engineering
+- Geospatial data processing
+- Marketing technology
 - Automation
 - Analytics
 - Cloud-based workflows
@@ -129,4 +118,4 @@ Continuing to improve my skills in:
 
 ## Connect
 
-[LinkedIn](YOUR-LINKEDIN-URL)
+[LinkedIn](https://www.linkedin.com/in/kaseypelchy19/)
