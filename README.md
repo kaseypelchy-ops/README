@@ -54,6 +54,36 @@ It also includes queue-based processing, Python workers, automated notifications
 
 ---
 
+### Fiber Service Area Mapping Pipeline
+
+I built a geospatial data pipeline that takes fiber service-area KMZ files and turns them into structured address datasets that are ready for import.
+
+The process compares the fiber polygons against address coordinates stored in DuckDB to determine which addresses fall inside the service area. Those records are then enriched with Census data and matched against FCC Broadband Fabric data to append additional location information such as building type, land-use type, BSL status, and other required Fabric fields.
+
+The final output is cleaned, validated, deduplicated, and structured for use in downstream marketing, sales, and operational systems.
+
+**Stack:** Python · DuckDB · SQL · KMZ / KML · Census Data · FCC Broadband Fabric · Geospatial Processing
+
+**Key areas:**
+
+- KMZ / KML parsing
+- Polygon and MultiPolygon processing
+- Point-in-polygon spatial matching
+- Large address dataset processing with DuckDB
+- Census data enrichment
+- FCC Broadband Fabric matching
+- Building-type and land-use enrichment
+- BSL attribute handling
+- Data normalization and validation
+- Deduplication
+- Structured import-ready output
+
+**[View the Fiber Mapping showcase →](YOUR-FIBER-MAPPING-SHOWCASE-URL)**
+
+> Production source code and datasets are private because they contain proprietary service-area information, internal address data, restricted reference data, and company-specific processing logic.
+
+---
+
 ### Marketing & Data Automation
 
 A lot of my other work focuses on using data to make marketing and operations more useful.
