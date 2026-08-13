@@ -1,40 +1,24 @@
 # Kasey Alexander Pelchy
 
-**Marketing Manager building practical tools with data, automation, AI, and code.**
+Marketing Manager building practical tools with data, automation, AI, and code.
 
-I work at the intersection of marketing, operations, data, and software. Most of the projects I build start with a real business problem — inefficient processes, disconnected data, manual reporting, or missing operational tools — and turn into systems people actually use.
-
-My work ranges from field-sales applications and marketing automation to AI-powered quality assurance, analytics, database design, and internal business tools.
+I work across marketing, operations, data, and software. A lot of the projects I build come from problems I run into at work — too much manual work, disconnected information, reporting that takes too long, or processes that could be handled better with the right tool.
 
 ---
 
 ## What I Work With
 
-**Languages & Data**
-
 - TypeScript / JavaScript
 - Python
 - SQL / PostgreSQL
 - PL/pgSQL
-- HTML / CSS
-
-**Platforms & Infrastructure**
-
 - Supabase
 - Vercel
 - Google Cloud
 - REST APIs
-- Cloud task queues
-
-**Areas of Focus**
-
 - AI / LLM workflows
-- Workflow automation
 - Data analytics
-- Database design
-- Internal business applications
-- Marketing technology
-- Reporting & business intelligence
+- Automation
 
 ---
 
@@ -42,111 +26,74 @@ My work ranges from field-sales applications and marketing automation to AI-powe
 
 ### Field Sales Operations Platform
 
-A production field-sales operations platform built to bring territory management, address-level canvassing, sales workflows, installation scheduling, operational review, invoicing, and management analytics into one system.
+I built a field-sales platform to manage territories, addresses, door-to-door activity, sales, installation scheduling, invoicing, and reporting.
 
-The platform gives field representatives a map-based workflow for working assigned service addresses while providing operations and management with visibility into sales activity, scheduling capacity, installation outcomes, representative performance, and territory results.
+It gives field reps a map-based workflow for working addresses and gives operations and management a way to track sales activity, install capacity, territory performance, and rep activity in one place.
 
 **Stack:** TypeScript · PostgreSQL · Supabase · Vercel · SQL / PL/pgSQL
 
-**Key areas:**
+**[View the FieldOS showcase →](YOUR-FIELDOS-SHOWCASE-URL)**
 
-- Interactive territory and address mapping
-- Field activity and disposition tracking
-- Sales submission workflows
-- Installation scheduling and capacity management
-- Sales review and invoicing
-- Representative and vendor management
-- Historical activity tracking
-- Executive dashboards and analytics
-- Automated customer communications
-
-**[View FieldOS Project Showcase →](YOUR-FIELDOS-SHOWCASE-URL)**
-
-> Production source code is maintained privately because the application contains proprietary business logic, operational workflows, internal integrations, and infrastructure configuration.
+> The production source is private because it contains internal business logic, company workflows, and infrastructure details.
 
 ---
 
 ### AI Call Quality & Coaching Platform
 
-An AI-powered quality assurance and coaching platform built to process customer-support calls, generate structured QA evaluations, identify coaching opportunities, and provide management with visibility into customer experience and representative performance.
+I built an AI-powered QA and coaching platform for customer service calls.
 
-The system uses asynchronous processing, Python workers, task queues, structured AI output, PostgreSQL, automated notifications, coaching workflows, and management analytics to turn unstructured customer conversations into actionable operational data.
+The system processes calls in the background, evaluates them against QA standards, stores structured results, generates coaching recommendations, tracks coaching follow-up, and gives management reporting on performance and trends.
 
-**Stack:** Python · TypeScript · PostgreSQL · PL/pgSQL · Supabase · Google Cloud · Vercel · AI/LLMs · Task Queues
+It also includes queue-based processing, Python workers, automated notifications, duplicate handling, processing health, and role-based dashboards.
 
-**Key areas:**
+**Stack:** Python · TypeScript · PostgreSQL · Supabase · Google Cloud · Vercel · AI / LLMs · Task Queues
 
-- Automated call ingestion and processing
-- AI-assisted QA evaluation
-- Structured scoring and call classification
-- Python analysis workers
-- Queue-based background processing
-- Coaching recommendations
-- Supervisor coaching workflows
-- Coaching effectiveness measurement
-- Automated coaching notifications
-- Management analytics
-- Processing health monitoring
-- Duplicate prevention and retry handling
-- Versioned QA standards
+**[View the AI QA & Coaching showcase →](YOUR-QA-SHOWCASE-URL)**
 
-**[View AI QA & Coaching Project Showcase →](YOUR-QA-SHOWCASE-URL)**
-
-> Production source code is maintained privately because the platform contains proprietary QA standards, internal infrastructure, operational integrations, and sensitive business workflows.
+> The production source is private because it contains internal QA standards, company workflows, and infrastructure details.
 
 ---
 
 ### Marketing & Data Automation
 
-I also build data and automation workflows that connect marketing activity with service-area information, address data, market intelligence, customer information, and reporting.
+A lot of my other work focuses on using data to make marketing and operations more useful.
 
-A large part of this work focuses on taking data from different systems and making it useful for targeting, segmentation, campaign planning, operational decision-making, and performance tracking.
+That includes things like:
 
-**Focus:** SQL · APIs · Data Matching · Marketing Automation · Analytics · FCC Data · Geographic Data
-
-**Examples of work include:**
-
-- Service-area and address qualification
-- FCC broadband and location data analysis
-- Market and competitor analysis
-- Direct-mail targeting and tracking
+- FCC broadband and location data
+- Service-area and address matching
+- Market and competitor research
+- Direct-mail targeting
+- Territory reporting
+- Data cleanup
 - Marketing segmentation
-- Territory-level reporting
-- Automated reporting workflows
-- Data cleanup and normalization
+- Automated reporting
 - Cross-system data matching
-- Campaign and operational dashboards
+
+**Focus:** SQL · APIs · Data Matching · Marketing Automation · Analytics
 
 ---
 
-## How I Approach Projects
+## What I Like Building
 
-I usually start with the business process rather than the technology.
+I tend to build things that solve a real problem.
 
-The questions are typically:
+Sometimes that is an application. Sometimes it is a database workflow, a reporting system, an automation, or a better way to connect data that already exists.
 
-- What is taking too much manual work?
-- Where is information disconnected?
-- What are people tracking in spreadsheets that should be a system?
-- What information does management need but cannot easily see?
-- What can be automated without making the process harder for the people using it?
-
-From there, I design the workflow, data structure, application, automation, or reporting needed to solve the problem.
+I enjoy the part where a messy process starts to make sense.
 
 ---
 
-## Currently Exploring
+## Currently Working On
 
-Continuing to deepen my work in:
+Continuing to improve my skills in:
 
-- AI system design
-- Data architecture
-- Application architecture
+- AI systems
+- Application design
+- Database architecture
 - Automation
-- Analytics engineering
-- Cloud-based processing
-- Reliable AI workflows
-- Scalable internal tools
+- Analytics
+- Cloud-based workflows
 
 ---
 
