@@ -12,6 +12,8 @@ I typically work across the full lifecycle:
 
 **business problem → workflow → data model → architecture → implementation → validation → operational use**
 
+**[View my interactive portfolio →](https://kaseys-portfolio.vercel.app)**
+
 ---
 
 ## Areas I Work Across
@@ -240,4 +242,6 @@ The goal is to demonstrate the engineering approach without exposing private sys
 
 ## Connect
 
+**[Interactive Portfolio →](https://kaseys-portfolio.vercel.app)**  
+**[GitHub →](https://github.com/kaseypelchy-ops)**  
 **[LinkedIn →](https://www.linkedin.com/in/kaseypelchy19/)**
