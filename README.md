@@ -1,60 +1,52 @@
 # Kasey Alexander Pelchy
 
-Marketing Manager building systems at the intersection of **marketing, operations, data, automation, AI, and software engineering**.
+Marketing Manager building systems at the intersection of **marketing technology, software engineering, data, automation, AI, and operations**.
 
-I build practical tools when the process I need does not already exist.
+I build practical systems when the process or tool I need does not already exist.
 
-My work has included field-sales operations platforms, market-intelligence and recovery systems, AI-powered quality and coaching platforms, geospatial data pipelines, SEO/AEO infrastructure, analytics, reporting, automation, and internal business applications.
+My work has included full-stack decision-support platforms, field-sales operations software, AI-powered quality and coaching systems, geospatial data pipelines, database-driven SEO/AEO infrastructure, analytics, reporting, automation, and internal business applications.
 
-Most of these projects started with an operational problem — disconnected data, manual work, limited visibility, inconsistent processes, or systems that were difficult to scale — and grew into purpose-built platforms designed around the actual workflow.
+Most of these projects started with a real operational problem — disconnected data, repetitive work, limited visibility, difficult reporting, inconsistent processes, or software that did not fit the actual workflow — and grew into purpose-built systems designed around how the work really happens.
 
-I typically work across the full lifecycle: **understanding the business problem, modeling the process and data, building the system, validating it, and turning the output into something people can use to make better decisions.**
+I typically work across the full lifecycle:
+
+**business problem → workflow → data model → architecture → implementation → validation → operational use**
 
 ---
 
 ## Areas I Work Across
 
-Marketing Strategy & Operations · Marketing Technology · Full-Stack Application Development · Data Analytics · Data Engineering · Process Automation · AI / LLM Systems · Database Design · Decision-Support Systems · Geospatial Data · SEO / AEO · Internal Tools · Workflow Design · Reporting · Cross-System Integration
+Marketing Strategy & Operations · Marketing Technology · Full-Stack Application Development · Data Engineering · Data Analytics · Decision-Support Systems · Process Automation · AI / LLM Systems · Database Design · Geospatial Data · SEO / AEO · Internal Tools · Workflow Design · Reporting · Cross-System Integration
 
 ---
 
 ## Technology
 
-TypeScript · JavaScript · Python · PHP · SQL · PostgreSQL · PL/pgSQL · React · Next.js · DuckDB · Supabase · Vercel · Google Cloud · WordPress · REST APIs · HTML / CSS · JSONB · JSON-LD
+**Languages**  
+TypeScript · JavaScript · Python · PHP · SQL · PL/pgSQL · HTML · CSS
+
+**Application & Data**  
+React · Next.js · PostgreSQL · Supabase · DuckDB · WordPress
+
+**Cloud & Integration**  
+Vercel · Google Cloud · REST APIs · Cloud Tasks · JSON · JSONB · JSON-LD
+
+**Data & Spatial**  
+Shapely · PyProj · KML / KMZ · FCC Broadband Fabric · Geospatial Processing
 
 ---
 
 # Featured Projects
 
-## Field Sales Operations Platform
-
-I built a field-sales operations platform that connects territory management, address-level canvassing, sales submission, installation scheduling, invoicing, reporting, and management oversight.
-
-The system gives field representatives a mobile workflow while operations and leadership receive centralized visibility into sales activity, installation capacity, territory performance, representative activity, customer lifecycle events, and operational trends.
-
-The platform also connects field activity to downstream data systems so submitted sales can be followed beyond the initial transaction and measured against installation, cancellation, disconnect, and other lifecycle outcomes.
-
-**Selected engineering work:** transactional sales workflows, offline synchronization, real-time schedule updates, duplicate-safe customer notifications, lifecycle tracking, PostgreSQL functions, role-based workflows, data-quality controls, reporting, and cross-system integration.
-
-**Stack:** TypeScript · JavaScript · PostgreSQL · PL/pgSQL · Supabase · Vercel
-
-**[View the FieldOS showcase →](https://github.com/kaseypelchy-ops/fieldos-project-showcase)**
-
----
-
 ## Market Recovery Intelligence Platform
 
-I built a market-intelligence and decision-support platform for identifying declining markets, investigating the underlying causes, prioritizing recovery opportunities, and measuring the results of intervention.
+I built a full-stack market-intelligence and decision-support platform for identifying declining markets, investigating the underlying causes, prioritizing recovery opportunities, and measuring intervention outcomes.
 
 The system combines acquisition activity, churn behavior, subscriber history, market identity, lifecycle state, and recovery-project data into a canonical analytical model.
 
-Rather than treating a score as the final decision, the platform separates **evidence, identity, analytics, severity, eligibility, ranking, and measurement** into distinct layers.
+Operational evidence is normalized before analytics are calculated. Multi-horizon trends and health signals feed a coverage-aware scoring model, while a separate policy layer determines whether a market is actually eligible for action.
 
-Operational data is normalized and mapped to canonical market identities before analytical metrics are calculated. Multi-horizon trends and health signals feed a coverage-aware scoring model that accounts for incomplete evidence without treating missing data as healthy.
-
-A separate policy layer determines whether a market is actionable, after which eligible candidates are ranked deterministically for investigation.
-
-Recovery projects preserve immutable measurement baselines so performance can be compared over time without rewriting the historical starting point.
+Eligible candidates are then ranked deterministically for investigation.
 
 ```mermaid
 flowchart LR
@@ -70,27 +62,42 @@ flowchart LR
     J --> K[Outcome Measurement]
 ```
 
-**Selected engineering work:** canonical data modeling, multi-horizon trend analysis, coverage-aware weighted scoring, data-completeness modeling, deterministic ranking, transactional project creation, immutable baseline snapshots, analytical read-path optimization, shared TypeScript domain modules, database indexing, and regression validation.
+**Selected engineering work:** canonical data modeling · multi-horizon trend analysis · coverage-aware scoring · data-completeness modeling · deterministic ranking · transactional project creation · immutable measurement baselines · analytical read-path optimization · shared TypeScript domain modules · database indexing · regression validation
 
 **Stack:** Next.js · React · TypeScript · PostgreSQL · Supabase · SQL · Data Engineering · Analytics
 
-**[View the Market Recovery Intelligence showcase →](https://github.com/kaseypelchy-ops/market-recovery-platform-showcase)**
+**[View the technical showcase →](https://github.com/kaseypelchy-ops/market-recovery-platform-showcase)**  
+**[Open the live interactive demo →](https://kaseypelchy-ops.github.io/market-recovery-platform-showcase/)**
+
+---
+
+## Field Sales Operations Platform
+
+I built a field-sales operations platform that connects serviceable-address data, territory management, door-to-door canvassing, customer dispositions, pricing, installation scheduling, sale submission, post-sale review, invoicing, and management reporting.
+
+Field representatives get an address-centered mobile workflow, while operations and leadership receive centralized visibility into sales activity, installation capacity, territory performance, representative activity, lifecycle outcomes, and operational trends.
+
+The platform is designed for real field conditions, including unreliable connectivity, shared installation capacity, realtime updates, transactional sale workflows, and preservation of unsynced work.
+
+**Selected engineering work:** transactional sales workflows · PWA/offline synchronization · realtime reconciliation · installation-capacity management · pricing snapshots · duplicate-safe customer notifications · lifecycle tracking · PostgreSQL functions · role-based workflows · data-quality controls · reporting · cross-system integration
+
+**Stack:** JavaScript · HTML / CSS · PostgreSQL · PL/pgSQL · Supabase · Vercel · Leaflet
+
+**[View the FieldOS showcase →](https://github.com/kaseypelchy-ops/fieldos-project-showcase)**
 
 ---
 
 ## AI Call Quality & Coaching Platform
 
-I built an AI-powered quality assurance and coaching platform for customer-service calls.
+I built an AI-powered quality assurance, coaching, and management analytics platform for customer-service calls.
 
-Completed call recordings move through a queue-based processing pipeline that validates eligibility, prevents duplicate analysis, performs structured AI evaluation, applies deterministic scoring, stores the results, and routes them into coaching and management workflows.
+Completed call recordings move through an asynchronous processing pipeline that validates eligibility, prevents duplicate analysis, performs structured AI evaluation, applies deterministic scoring, persists the result, and routes the output into coaching and management workflows.
 
-The platform supports one-on-one coaching, automated notifications, follow-up tracking, coaching-effectiveness measurement, processing-health monitoring, management analytics, and real-time dashboard updates.
+The architecture separates ingestion, queueing, AI analysis, application scoring, persistence, notification delivery, coaching, and reporting so failures in one stage do not silently compromise the rest of the process.
 
-The architecture separates ingestion, analysis, scoring, persistence, notification, and coaching workflows so failures in one stage do not silently compromise the rest of the process.
+**Selected engineering work:** queue-based processing · idempotent analysis · structured LLM output · deterministic scoring · asynchronous workers · retry handling · processing locks · automated notifications · coaching workflows · effectiveness measurement · operational-health monitoring · management analytics
 
-**Selected engineering work:** queue-based processing, idempotent analysis, deterministic scoring, AI evaluation pipelines, asynchronous workers, error handling, processing-health monitoring, coaching workflows, automated notifications, and management analytics.
-
-**Stack:** Python · TypeScript · PostgreSQL · PL/pgSQL · Supabase · Google Cloud · Vercel · AI / LLMs · Cloud Tasks
+**Stack:** Python · TypeScript · React · Next.js · PostgreSQL · PL/pgSQL · Supabase · Google Cloud · Cloud Tasks · Vercel · AI / LLMs
 
 **[View the AI Call Quality showcase →](https://github.com/kaseypelchy-ops/ai-call-quality-platform-showcase)**
 
@@ -100,15 +107,13 @@ The architecture separates ingestion, analysis, scoring, persistence, notificati
 
 I built a database-driven SEO and Answer Engine Optimization platform for managing hierarchical, localized website content through PostgreSQL, Supabase, and reusable WordPress templates.
 
-Instead of managing every localized page independently, the platform models pages, geographic hierarchy, keywords, FAQs, content sections, internal links, services, markets, promotions, and redirects as structured data.
+Instead of maintaining each localized page as an independent collection of WordPress fields, the platform models pages, geographic hierarchy, services, promotions, keywords, FAQs, content sections, internal links, redirects, metadata, and publishing state as structured relational data.
 
-PL/pgSQL functions generate repeatable local SEO/AEO defaults, while PostgreSQL JSONB aggregation assembles related records into page-level documents that can be consumed by WordPress.
+PostgreSQL and PL/pgSQL assemble the related records into page-level JSON documents that WordPress can retrieve and render through reusable templates.
 
-WordPress resolves the requested route, retrieves the published page bundle through Supabase REST, applies safe fallback behavior, and renders localized content, metadata, canonical and robots directives, Open Graph data, and JSON-LD.
+**Selected engineering work:** relational content modeling · hierarchical geography · JSONB document assembly · PL/pgSQL content generation · route resolution · dynamic metadata · structured-data generation · reusable templates · REST-based publishing · SEO/AEO architecture
 
-**Selected engineering work:** relational content modeling, hierarchical geography, JSONB document assembly, dynamic metadata, structured data generation, route resolution, reusable templates, database-generated content defaults, and REST-based publishing.
-
-**Stack:** PHP · WordPress · PostgreSQL · PL/pgSQL · Supabase · REST APIs · JSONB · JSON-LD · SEO / AEO
+**Stack:** PHP · WordPress · PostgreSQL · PL/pgSQL · Supabase · REST APIs · JSONB · JSON-LD
 
 **[View the SEO & AEO Platform showcase →](https://github.com/kaseypelchy-ops/seo-aeo-content-platform-showcase)**
 
@@ -118,24 +123,13 @@ WordPress resolves the requested route, retrieves the published page bundle thro
 
 I built a geospatial data pipeline that converts KML/KMZ service-area boundaries into structured broadband-location datasets.
 
-The pipeline parses and repairs source geometry, calculates a service-area bounding box, queries FCC Broadband Fabric records stored in DuckDB to reduce the candidate universe, and then performs exact point-in-polygon matching with Shapely.
+The pipeline parses and repairs source geometry, calculates a service-area bounding box, uses DuckDB to reduce a large FCC Broadband Fabric dataset to a candidate set, and then performs exact point-in-polygon matching with Shapely.
 
-Matched locations are deduplicated, normalized, enriched with selected Census and Fabric attributes, and exported as structured JSON and CSV.
+Matched locations are deduplicated, normalized, enriched with selected geographic attributes, and exported as structured JSON and CSV for downstream systems.
 
-The cloud workflow also includes generation-aware duplicate protection, processing locks, stale-lock recovery, data-lineage tracking, and an optional cost-controlled geocoding fallback.
+The cloud workflow also includes generation-aware duplicate protection, processing locks, stale-lock recovery, lineage tracking, and optional cost-controlled geocoding fallback.
 
-```mermaid
-flowchart LR
-    A[KML / KMZ] --> B[Geometry Parsing]
-    B --> C[Bounding Box]
-    C --> D[DuckDB Candidate Query]
-    D --> E[Point-in-Polygon]
-    E --> F[Normalize + Deduplicate]
-    F --> G[Enrich Attributes]
-    G --> H[JSON / CSV Output]
-```
-
-**Selected engineering work:** geometry repair, spatial filtering, point-in-polygon analysis, DuckDB query optimization, data normalization, deduplication, processing locks, stale-lock recovery, lineage tracking, and cloud processing.
+**Selected engineering work:** geometry parsing and repair · coordinate transformations · bounding-box filtering · DuckDB query optimization · point-in-polygon analysis · streaming record processing · normalization · deduplication · processing locks · stale-lock recovery · lineage tracking · cloud automation
 
 **Stack:** Python · DuckDB · SQL · Shapely · PyProj · Google Cloud · KML / KMZ · FCC Broadband Fabric
 
@@ -143,9 +137,9 @@ flowchart LR
 
 ---
 
-# How I Approach Problems
+# How I Build
 
-I usually start with the process rather than the technology.
+I start with the process rather than the technology.
 
 I look for places where:
 
@@ -157,11 +151,16 @@ I look for places where:
 - existing software does not match the real workflow
 - a process works at small scale but becomes difficult to manage as it grows
 
-From there, I map the workflow, identify the entities and rules involved, define the data model, and determine the smallest architecture that can solve the problem reliably.
+From there, my usual approach is:
 
-That might become a full application.
-
-It might also become a database workflow, API integration, automation, analytical model, reporting layer, geospatial pipeline, or a better way to connect systems that already exist.
+1. **Map the workflow and decision points**
+2. **Identify the entities, state, and business rules**
+3. **Design the data model**
+4. **Separate source evidence from analytical and operational logic**
+5. **Choose the smallest architecture that can solve the problem reliably**
+6. **Build for retries, failure, changing data, and changing requirements**
+7. **Validate the system against the real workflow**
+8. **Turn the output into something useful for the person making the decision**
 
 The technology is a means to solve the business problem, not the starting point.
 
@@ -169,53 +168,52 @@ The technology is a means to solve the business problem, not the starting point.
 
 # Engineering Principles
 
-A few ideas consistently shape the systems I build:
+### Model the process before the interface
 
-### Model the process before building the interface
+The workflow, data relationships, state transitions, and rules should be understood before the UI dictates the architecture.
 
-The workflow, data relationships, state transitions, and business rules should be understood before UI decisions dictate the architecture.
+### Preserve clear sources of truth
 
-### Preserve one source of truth
-
-When multiple applications need the same business logic, I try to centralize that logic rather than allowing each screen or service to develop its own interpretation.
+When multiple screens or services depend on the same logic, I prefer shared domain rules and canonical data sources over duplicated implementations.
 
 ### Separate evidence from decisions
 
-Raw data, analytical conclusions, and operational policy are different things. Keeping those layers separate makes systems easier to explain, test, and change.
+Raw data, analytical interpretation, and operational policy are different concerns. Keeping them separate makes systems easier to explain, test, and change.
+
+### Treat missing data explicitly
+
+Missing information should remain missing rather than silently becoming a healthy value, successful result, or false certainty.
 
 ### Design for failure and retries
 
-Imports can be repeated. Workers can fail. Networks disconnect. Users double-click buttons. Systems should expect those conditions instead of assuming perfect execution.
+Imports can be repeated. Workers fail. Connections drop. Users retry actions. Systems should expect those conditions rather than assume perfect execution.
 
-### Make the output useful to the person making the decision
+### Preserve history
 
-A technically correct system still fails if the person using it cannot understand what happened or what they should do next.
+Changing today's configuration should not silently rewrite what happened yesterday. Historical decisions, pricing, measurements, and baselines should remain explainable.
+
+### Build for the person making the decision
+
+A technically correct system still fails if the person using it cannot understand the output or determine what to do next.
 
 ---
 
 # What I Bring
 
-I am comfortable moving between the business and technical sides of a problem — from defining the objective and workflow to designing the data model, building the system, testing it, and using the resulting information to support operational decisions.
+I am comfortable moving between the business and technical sides of a problem — from defining the objective and workflow to modeling the data, designing the architecture, building the system, validating it, and using the resulting information to support operational decisions.
 
-My background in marketing and operations means I tend to approach software differently than someone starting only from the engineering side.
+My background in marketing and operations shapes how I approach software.
 
-I care about:
+I tend to start with four questions:
 
-**What problem are we solving?**
+**What problem needs to be solved?**  
+**Who needs the answer?**  
+**What evidence is required to make the decision?**  
+**How can the process become repeatable?**
 
-**Who needs the answer?**
+Then I determine what should be built to make that happen.
 
-**What information do they need to make the decision?**
-
-**Where does that information come from?**
-
-**How do we make the process repeatable?**
-
-And then:
-
-**What should we build to make that happen?**
-
-My work increasingly sits at the intersection of **marketing, software engineering, data, automation, AI, and operations**.
+My work sits at the intersection of **marketing technology, software engineering, data engineering, analytics, automation, AI, and operations**.
 
 ---
 
@@ -225,10 +223,21 @@ The repositories linked above are sanitized portfolio representations of private
 
 Production source code, credentials, customer or employee information, proprietary company data, internal infrastructure, confidential pricing, private operational metrics, and company-specific business rules are intentionally excluded.
 
-The public repositories use synthetic data, generalized code samples, neutral schema names, technical documentation, architecture diagrams, and interactive reconstructions to demonstrate the engineering approach without exposing private systems.
+The public repositories use combinations of:
+
+- synthetic data
+- generalized code samples
+- neutral schema names
+- technical documentation
+- architecture diagrams
+- representative SQL and TypeScript
+- sanitized screenshots
+- interactive reconstructions
+
+The goal is to demonstrate the engineering approach without exposing private systems or data.
 
 ---
 
 ## Connect
 
-[LinkedIn](https://www.linkedin.com/in/kaseypelchy19/)
+**[LinkedIn →](https://www.linkedin.com/in/kaseypelchy19/)**
