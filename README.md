@@ -1,40 +1,49 @@
 # Kasey Alexander Pelchy
 
-Marketing Manager building systems at the intersection of **marketing technology, software engineering, data, automation, AI, and operations**.
+Marketing Manager working at the intersection of **Marketing Operations, Revenue Operations, AI, automation, data, and business systems**.
 
-I build practical systems when the process or tool I need does not already exist.
+I translate business and operational problems into repeatable workflows, structured data, decision-support tools, and working software.
 
-My work has included full-stack decision-support platforms, field-sales operations software, AI-powered quality and coaching systems, geospatial data pipelines, database-driven SEO/AEO infrastructure, analytics, reporting, automation, and internal business applications.
+My work includes customer acquisition and lifecycle strategy, full-stack decision-support platforms, field-sales operations software, AI-powered quality and coaching systems, geospatial data pipelines, SEO/AEO and search-intelligence infrastructure, analytics, reporting, automation, and internal business applications.
 
-Most of these projects started with a real operational problem — disconnected data, repetitive work, limited visibility, difficult reporting, inconsistent processes, or software that did not fit the actual workflow — and grew into purpose-built systems designed around how the work really happens.
+Most of these projects started with a real operational problem â€” disconnected data, repetitive work, limited visibility, difficult reporting, inconsistent processes, or software that did not fit the actual workflow â€” and grew into purpose-built systems designed around how the work really happens.
 
-I typically work across the full lifecycle:
+I often work across the full lifecycle:
 
-**business problem → workflow → data model → architecture → implementation → validation → operational use**
+**business problem â†’ process â†’ data â†’ technology â†’ outcome â†’ improvement**
 
-**[View my interactive portfolio →](https://kaseys-portfolio.vercel.app)**
+**[View my interactive portfolio â†’](https://kaseys-portfolio.vercel.app)**
 
 ---
 
 ## Areas I Work Across
 
-Marketing Strategy & Operations · Marketing Technology · Full-Stack Application Development · Data Engineering · Data Analytics · Decision-Support Systems · Process Automation · AI / LLM Systems · Database Design · Geospatial Data · SEO / AEO · Internal Tools · Workflow Design · Reporting · Cross-System Integration
+Marketing Operations Â· Revenue Operations Â· Sales Operations Â· Marketing Technology Â· Business Process Improvement Â· Customer Lifecycle Strategy Â· Full-Stack Application Development Â· Data Engineering Â· Data Analytics Â· Business Intelligence Â· Decision-Support Systems Â· Process Automation Â· AI / LLM Systems Â· Database Design Â· Geospatial Data Â· SEO / AEO Â· Search Intelligence Â· Internal Tools Â· Reporting Â· Cross-System Integration
 
 ---
 
 ## Technology
 
 **Languages**  
-TypeScript · JavaScript · Python · PHP · SQL · PL/pgSQL · HTML · CSS
+TypeScript Â· JavaScript Â· Python Â· PHP Â· SQL Â· PL/pgSQL Â· HTML Â· CSS
 
 **Application & Data**  
-React · Next.js · PostgreSQL · Supabase · DuckDB · WordPress
+React Â· Next.js Â· PostgreSQL Â· Supabase Â· DuckDB Â· WordPress
 
 **Cloud & Integration**  
-Vercel · Google Cloud · REST APIs · Cloud Tasks · JSON · JSONB · JSON-LD
+Vercel Â· Google Cloud Â· GitHub Actions Â· REST APIs Â· Cloud Tasks Â· JSON Â· JSONB Â· JSON-LD
+
+**Marketing, Search & Analytics**  
+Google Search Console Â· Google Analytics 4 Â· Bing Webmaster Tools Â· Mautic Â· ACF Â· Schema.org
 
 **Data & Spatial**  
-Shapely · PyProj · KML / KMZ · FCC Broadband Fabric · Geospatial Processing
+Shapely Â· PyProj Â· KML / KMZ Â· FCC Broadband Fabric Â· Geospatial Processing
+
+---
+
+## Certifications
+
+**HubSpot Revenue Operations Certified** Â· **HubSpot Inbound Certified**
 
 ---
 
@@ -51,7 +60,7 @@ Operational evidence is normalized before analytics are calculated. Multi-horizo
 Eligible candidates are then ranked deterministically for investigation.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Operational Data] --> B[Validation + Normalization]
     B --> C[Canonical Market Identity]
     C --> D[Derived Metrics]
@@ -64,12 +73,12 @@ flowchart LR
     J --> K[Outcome Measurement]
 ```
 
-**Selected engineering work:** canonical data modeling · multi-horizon trend analysis · coverage-aware scoring · data-completeness modeling · deterministic ranking · transactional project creation · immutable measurement baselines · analytical read-path optimization · shared TypeScript domain modules · database indexing · regression validation
+**Selected engineering work:** canonical data modeling Â· multi-horizon trend analysis Â· coverage-aware scoring Â· data-completeness modeling Â· deterministic ranking Â· transactional project creation Â· immutable measurement baselines Â· analytical read-path optimization Â· shared TypeScript domain modules Â· database indexing Â· regression validation
 
-**Stack:** Next.js · React · TypeScript · PostgreSQL · Supabase · SQL · Data Engineering · Analytics
+**Stack:** Next.js Â· React Â· TypeScript Â· PostgreSQL Â· Supabase Â· SQL Â· Data Engineering Â· Analytics
 
-**[View the technical showcase →](https://github.com/kaseypelchy-ops/market-recovery-platform-showcase)**  
-**[Open the live interactive demo →](https://kaseypelchy-ops.github.io/market-recovery-platform-showcase/)**
+**[View the technical showcase â†’](https://github.com/kaseypelchy-ops/market-recovery-platform-showcase)**  
+**[Open the live interactive demo â†’](https://kaseypelchy-ops.github.io/market-recovery-platform-showcase/)**
 
 ---
 
@@ -81,11 +90,11 @@ Field representatives get an address-centered mobile workflow, while operations 
 
 The platform is designed for real field conditions, including unreliable connectivity, shared installation capacity, realtime updates, transactional sale workflows, and preservation of unsynced work.
 
-**Selected engineering work:** transactional sales workflows · PWA/offline synchronization · realtime reconciliation · installation-capacity management · pricing snapshots · duplicate-safe customer notifications · lifecycle tracking · PostgreSQL functions · role-based workflows · data-quality controls · reporting · cross-system integration
+**Selected engineering work:** transactional sales workflows Â· PWA/offline synchronization Â· realtime reconciliation Â· installation-capacity management Â· pricing snapshots Â· duplicate-safe customer notifications Â· lifecycle tracking Â· PostgreSQL functions Â· role-based workflows Â· data-quality controls Â· reporting Â· cross-system integration
 
-**Stack:** JavaScript · HTML / CSS · PostgreSQL · PL/pgSQL · Supabase · Vercel · Leaflet
+**Stack:** JavaScript Â· HTML / CSS Â· PostgreSQL Â· PL/pgSQL Â· Supabase Â· Vercel Â· Leaflet
 
-**[View the FieldOS showcase →](https://github.com/kaseypelchy-ops/fieldos-project-showcase)**
+**[View the FieldOS showcase â†’](https://github.com/kaseypelchy-ops/fieldos-project-showcase)**
 
 ---
 
@@ -97,27 +106,41 @@ Completed call recordings move through an asynchronous processing pipeline that 
 
 The architecture separates ingestion, queueing, AI analysis, application scoring, persistence, notification delivery, coaching, and reporting so failures in one stage do not silently compromise the rest of the process.
 
-**Selected engineering work:** queue-based processing · idempotent analysis · structured LLM output · deterministic scoring · asynchronous workers · retry handling · processing locks · automated notifications · coaching workflows · effectiveness measurement · operational-health monitoring · management analytics
+**Selected engineering work:** queue-based processing Â· idempotent analysis Â· structured LLM output Â· deterministic scoring Â· asynchronous workers Â· retry handling Â· processing locks Â· automated notifications Â· coaching workflows Â· effectiveness measurement Â· operational-health monitoring Â· management analytics
 
-**Stack:** Python · TypeScript · React · Next.js · PostgreSQL · PL/pgSQL · Supabase · Google Cloud · Cloud Tasks · Vercel · AI / LLMs
+**Stack:** Python Â· TypeScript Â· React Â· Next.js Â· PostgreSQL Â· PL/pgSQL Â· Supabase Â· Google Cloud Â· Cloud Tasks Â· Vercel Â· AI / LLMs
 
-**[View the AI Call Quality showcase →](https://github.com/kaseypelchy-ops/ai-call-quality-platform-showcase)**
+**[View the AI Call Quality showcase â†’](https://github.com/kaseypelchy-ops/ai-call-quality-platform-showcase)**
 
 ---
 
-## SEO & AEO Content Platform
+## SEO, AEO & Search Intelligence Platform
 
-I built a database-driven SEO and Answer Engine Optimization platform for managing hierarchical, localized website content through PostgreSQL, Supabase, and reusable WordPress templates.
+I built and continue to develop a production search-operations platform connecting structured website content, technical site health, organic-search performance, optimization workflows, and AI-visibility measurement.
 
-Instead of maintaining each localized page as an independent collection of WordPress fields, the platform models pages, geographic hierarchy, services, promotions, keywords, FAQs, content sections, internal links, redirects, metadata, and publishing state as structured relational data.
+The project began as a database-driven SEO and Answer Engine Optimization system. Pages, geographic relationships, services, promotions, keywords, FAQs, content sections, internal links, redirects, metadata, and publishing state are modeled in PostgreSQL and Supabase. Reusable WordPress templates retrieve page-level JSON bundles and dynamically render localized content, metadata, and structured data.
 
-PostgreSQL and PL/pgSQL assemble the related records into page-level JSON documents that WordPress can retrieve and render through reusable templates.
+That foundation helped expand localized website coverage from approximately 25 manually maintained pages to more than 435 dynamic market and service-area pages.
 
-**Selected engineering work:** relational content modeling · hierarchical geography · JSONB document assembly · PL/pgSQL content generation · route resolution · dynamic metadata · structured-data generation · reusable templates · REST-based publishing · SEO/AEO architecture
+The system has since expanded into a protected Next.js application combining managed page data, live rendered-site evidence, Google Search Console performance, GA4 AI referral data, Bing AI citation evidence, automated monitoring, prioritization models, internal-link workflows, and optimization experiments.
 
-**Stack:** PHP · WordPress · PostgreSQL · PL/pgSQL · Supabase · REST APIs · JSONB · JSON-LD
+```mermaid
+flowchart TD
+    A[Structured Content] --> B[Publish + Render]
+    B --> C[Collect Evidence]
+    C --> D[Diagnose + Prioritize]
+    D --> E[Implement + Verify]
+    E --> F[Measure Outcomes]
+    F --> C
+```
 
-**[View the SEO & AEO Platform showcase →](https://github.com/kaseypelchy-ops/seo-aeo-content-platform-showcase)**
+The platform deliberately preserves source meaning: Search Console performance, rendered-site health, identifiable AI referrals, and AI citations can be compared operationally without being blended into fabricated metrics. It also distinguishes **not measured** from **measured zero** and retains import lineage for auditable results.
+
+**Selected engineering work:** relational content modeling Â· reusable WordPress publishing Â· Search Console integration Â· intent and page-ownership intelligence Â· opportunity prioritization Â· content-gap and cannibalization analysis Â· rendered-site health monitoring Â· internal-link execution and verification Â· optimization experiments Â· GA4 AI-referral measurement Â· Bing AI citation intelligence Â· pipeline operations Â· explainable scoring and guardrails
+
+**Stack:** Next.js Â· React Â· TypeScript Â· PostgreSQL Â· Supabase Â· WordPress Â· PHP Â· Google Search Console Â· Google Analytics 4 Â· Bing Webmaster Tools Â· REST APIs Â· JSONB Â· JSON-LD Â· Vercel
+
+**[View the SEO, AEO & Search Intelligence showcase â†’](https://github.com/kaseypelchy-ops/seo-aeo-content-platform-showcase)**
 
 ---
 
@@ -131,11 +154,11 @@ Matched locations are deduplicated, normalized, enriched with selected geographi
 
 The cloud workflow also includes generation-aware duplicate protection, processing locks, stale-lock recovery, lineage tracking, and optional cost-controlled geocoding fallback.
 
-**Selected engineering work:** geometry parsing and repair · coordinate transformations · bounding-box filtering · DuckDB query optimization · point-in-polygon analysis · streaming record processing · normalization · deduplication · processing locks · stale-lock recovery · lineage tracking · cloud automation
+**Selected engineering work:** geometry parsing and repair Â· coordinate transformations Â· bounding-box filtering Â· DuckDB query optimization Â· point-in-polygon analysis Â· streaming record processing Â· normalization Â· deduplication Â· processing locks Â· stale-lock recovery Â· lineage tracking Â· cloud automation
 
-**Stack:** Python · DuckDB · SQL · Shapely · PyProj · Google Cloud · KML / KMZ · FCC Broadband Fabric
+**Stack:** Python Â· DuckDB Â· SQL Â· Shapely Â· PyProj Â· Google Cloud Â· KML / KMZ Â· FCC Broadband Fabric
 
-**[View the Fiber Mapping showcase →](https://github.com/kaseypelchy-ops/fiber-service-area-mapping-showcase)**
+**[View the Fiber Mapping showcase â†’](https://github.com/kaseypelchy-ops/fiber-service-area-mapping-showcase)**
 
 ---
 
@@ -202,9 +225,9 @@ A technically correct system still fails if the person using it cannot understan
 
 # What I Bring
 
-I am comfortable moving between the business and technical sides of a problem — from defining the objective and workflow to modeling the data, designing the architecture, building the system, validating it, and using the resulting information to support operational decisions.
+I am comfortable moving between the business and technical sides of a problem â€” from defining the objective and workflow to modeling the data, designing the architecture, building the system, validating it, and using the resulting information to support operational decisions.
 
-My background in marketing and operations shapes how I approach software.
+My background in marketing and operations shapes how I approach software, data, and process design. I understand the customer-acquisition and lifecycle side of the work as well as the systems required to support it.
 
 I tend to start with four questions:
 
@@ -215,7 +238,7 @@ I tend to start with four questions:
 
 Then I determine what should be built to make that happen.
 
-My work sits at the intersection of **marketing technology, software engineering, data engineering, analytics, automation, AI, and operations**.
+My work sits at the intersection of **Marketing Operations, Revenue Operations, marketing technology, business systems, software engineering, data, analytics, automation, and AI**.
 
 ---
 
@@ -242,6 +265,6 @@ The goal is to demonstrate the engineering approach without exposing private sys
 
 ## Connect
 
-**[Interactive Portfolio →](https://kaseys-portfolio.vercel.app)**  
-**[GitHub →](https://github.com/kaseypelchy-ops)**  
-**[LinkedIn →](https://www.linkedin.com/in/kaseypelchy19/)**
+**[Interactive Portfolio â†’](https://kaseys-portfolio.vercel.app)**  
+**[GitHub â†’](https://github.com/kaseypelchy-ops)**  
+**[LinkedIn â†’](https://www.linkedin.com/in/kaseypelchy19/)**
