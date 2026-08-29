@@ -6,44 +6,44 @@ I translate business and operational problems into repeatable workflows, structu
 
 My work includes customer acquisition and lifecycle strategy, full-stack decision-support platforms, field-sales operations software, AI-powered quality and coaching systems, geospatial data pipelines, SEO/AEO and search-intelligence infrastructure, analytics, reporting, automation, and internal business applications.
 
-Most of these projects started with a real operational problem â€” disconnected data, repetitive work, limited visibility, difficult reporting, inconsistent processes, or software that did not fit the actual workflow â€” and grew into purpose-built systems designed around how the work really happens.
+Most of these projects started with a real operational problem — disconnected data, repetitive work, limited visibility, difficult reporting, inconsistent processes, or software that did not fit the actual workflow — and grew into purpose-built systems designed around how the work really happens.
 
 I often work across the full lifecycle:
 
-**business problem â†’ process â†’ data â†’ technology â†’ outcome â†’ improvement**
+**business problem → process → data → technology → outcome → improvement**
 
-**[View my interactive portfolio â†’](https://kaseys-portfolio.vercel.app)**
+**[View my interactive portfolio →](https://kaseys-portfolio.vercel.app)**
 
 ---
 
 ## Areas I Work Across
 
-Marketing Operations Â· Revenue Operations Â· Sales Operations Â· Marketing Technology Â· Business Process Improvement Â· Customer Lifecycle Strategy Â· Full-Stack Application Development Â· Data Engineering Â· Data Analytics Â· Business Intelligence Â· Decision-Support Systems Â· Process Automation Â· AI / LLM Systems Â· Database Design Â· Geospatial Data Â· SEO / AEO Â· Search Intelligence Â· Internal Tools Â· Reporting Â· Cross-System Integration
+Marketing Operations · Revenue Operations · Sales Operations · Marketing Technology · Business Process Improvement · Customer Lifecycle Strategy · Full-Stack Application Development · Data Engineering · Data Analytics · Business Intelligence · Decision-Support Systems · Process Automation · AI / LLM Systems · Database Design · Geospatial Data · SEO / AEO · Search Intelligence · Internal Tools · Reporting · Cross-System Integration
 
 ---
 
 ## Technology
 
 **Languages**  
-TypeScript Â· JavaScript Â· Python Â· PHP Â· SQL Â· PL/pgSQL Â· HTML Â· CSS
+TypeScript · JavaScript · Python · PHP · SQL · PL/pgSQL · HTML · CSS
 
 **Application & Data**  
-React Â· Next.js Â· PostgreSQL Â· Supabase Â· DuckDB Â· WordPress
+React · Next.js · PostgreSQL · Supabase · DuckDB · WordPress
 
 **Cloud & Integration**  
-Vercel Â· Google Cloud Â· GitHub Actions Â· REST APIs Â· Cloud Tasks Â· JSON Â· JSONB Â· JSON-LD
+Vercel · Google Cloud · GitHub Actions · REST APIs · Cloud Tasks · JSON · JSONB · JSON-LD
 
 **Marketing, Search & Analytics**  
-Google Search Console Â· Google Analytics 4 Â· Bing Webmaster Tools Â· Mautic Â· ACF Â· Schema.org
+Google Search Console · Google Analytics 4 · Bing Webmaster Tools · Mautic · ACF · Schema.org
 
 **Data & Spatial**  
-Shapely Â· PyProj Â· KML / KMZ Â· FCC Broadband Fabric Â· Geospatial Processing
+Shapely · PyProj · KML / KMZ · FCC Broadband Fabric · Geospatial Processing
 
 ---
 
 ## Certifications
 
-**HubSpot Revenue Operations Certified** Â· **HubSpot Inbound Certified**
+**HubSpot Revenue Operations Certified** · **HubSpot Inbound Certified**
 
 ---
 
@@ -73,12 +73,12 @@ flowchart TD
     J --> K[Outcome Measurement]
 ```
 
-**Selected engineering work:** canonical data modeling Â· multi-horizon trend analysis Â· coverage-aware scoring Â· data-completeness modeling Â· deterministic ranking Â· transactional project creation Â· immutable measurement baselines Â· analytical read-path optimization Â· shared TypeScript domain modules Â· database indexing Â· regression validation
+**Selected engineering work:** canonical data modeling · multi-horizon trend analysis · coverage-aware scoring · data-completeness modeling · deterministic ranking · transactional project creation · immutable measurement baselines · analytical read-path optimization · shared TypeScript domain modules · database indexing · regression validation
 
-**Stack:** Next.js Â· React Â· TypeScript Â· PostgreSQL Â· Supabase Â· SQL Â· Data Engineering Â· Analytics
+**Stack:** Next.js · React · TypeScript · PostgreSQL · Supabase · SQL · Data Engineering · Analytics
 
-**[View the technical showcase â†’](https://github.com/kaseypelchy-ops/market-recovery-platform-showcase)**  
-**[Open the live interactive demo â†’](https://kaseypelchy-ops.github.io/market-recovery-platform-showcase/)**
+**[View the technical showcase →](https://github.com/kaseypelchy-ops/market-recovery-platform-showcase)**  
+**[Open the live interactive demo →](https://kaseypelchy-ops.github.io/market-recovery-platform-showcase/)**
 
 ---
 
@@ -90,11 +90,11 @@ Field representatives get an address-centered mobile workflow, while operations 
 
 The platform is designed for real field conditions, including unreliable connectivity, shared installation capacity, realtime updates, transactional sale workflows, and preservation of unsynced work.
 
-**Selected engineering work:** transactional sales workflows Â· PWA/offline synchronization Â· realtime reconciliation Â· installation-capacity management Â· pricing snapshots Â· duplicate-safe customer notifications Â· lifecycle tracking Â· PostgreSQL functions Â· role-based workflows Â· data-quality controls Â· reporting Â· cross-system integration
+**Selected engineering work:** transactional sales workflows · PWA/offline synchronization · realtime reconciliation · installation-capacity management · pricing snapshots · duplicate-safe customer notifications · lifecycle tracking · PostgreSQL functions · role-based workflows · data-quality controls · reporting · cross-system integration
 
-**Stack:** JavaScript Â· HTML / CSS Â· PostgreSQL Â· PL/pgSQL Â· Supabase Â· Vercel Â· Leaflet
+**Stack:** JavaScript · HTML / CSS · PostgreSQL · PL/pgSQL · Supabase · Vercel · Leaflet
 
-**[View the FieldOS showcase â†’](https://github.com/kaseypelchy-ops/fieldos-project-showcase)**
+**[View the FieldOS showcase →](https://github.com/kaseypelchy-ops/fieldos-project-showcase)**
 
 ---
 
@@ -106,11 +106,11 @@ Completed call recordings move through an asynchronous processing pipeline that 
 
 The architecture separates ingestion, queueing, AI analysis, application scoring, persistence, notification delivery, coaching, and reporting so failures in one stage do not silently compromise the rest of the process.
 
-**Selected engineering work:** queue-based processing Â· idempotent analysis Â· structured LLM output Â· deterministic scoring Â· asynchronous workers Â· retry handling Â· processing locks Â· automated notifications Â· coaching workflows Â· effectiveness measurement Â· operational-health monitoring Â· management analytics
+**Selected engineering work:** queue-based processing · idempotent analysis · structured LLM output · deterministic scoring · asynchronous workers · retry handling · processing locks · automated notifications · coaching workflows · effectiveness measurement · operational-health monitoring · management analytics
 
-**Stack:** Python Â· TypeScript Â· React Â· Next.js Â· PostgreSQL Â· PL/pgSQL Â· Supabase Â· Google Cloud Â· Cloud Tasks Â· Vercel Â· AI / LLMs
+**Stack:** Python · TypeScript · React · Next.js · PostgreSQL · PL/pgSQL · Supabase · Google Cloud · Cloud Tasks · Vercel · AI / LLMs
 
-**[View the AI Call Quality showcase â†’](https://github.com/kaseypelchy-ops/ai-call-quality-platform-showcase)**
+**[View the AI Call Quality showcase →](https://github.com/kaseypelchy-ops/ai-call-quality-platform-showcase)**
 
 ---
 
@@ -136,11 +136,11 @@ flowchart TD
 
 The platform deliberately preserves source meaning: Search Console performance, rendered-site health, identifiable AI referrals, and AI citations can be compared operationally without being blended into fabricated metrics. It also distinguishes **not measured** from **measured zero** and retains import lineage for auditable results.
 
-**Selected engineering work:** relational content modeling Â· reusable WordPress publishing Â· Search Console integration Â· intent and page-ownership intelligence Â· opportunity prioritization Â· content-gap and cannibalization analysis Â· rendered-site health monitoring Â· internal-link execution and verification Â· optimization experiments Â· GA4 AI-referral measurement Â· Bing AI citation intelligence Â· pipeline operations Â· explainable scoring and guardrails
+**Selected engineering work:** relational content modeling · reusable WordPress publishing · Search Console integration · intent and page-ownership intelligence · opportunity prioritization · content-gap and cannibalization analysis · rendered-site health monitoring · internal-link execution and verification · optimization experiments · GA4 AI-referral measurement · Bing AI citation intelligence · pipeline operations · explainable scoring and guardrails
 
-**Stack:** Next.js Â· React Â· TypeScript Â· PostgreSQL Â· Supabase Â· WordPress Â· PHP Â· Google Search Console Â· Google Analytics 4 Â· Bing Webmaster Tools Â· REST APIs Â· JSONB Â· JSON-LD Â· Vercel
+**Stack:** Next.js · React · TypeScript · PostgreSQL · Supabase · WordPress · PHP · Google Search Console · Google Analytics 4 · Bing Webmaster Tools · REST APIs · JSONB · JSON-LD · Vercel
 
-**[View the SEO, AEO & Search Intelligence showcase â†’](https://github.com/kaseypelchy-ops/seo-aeo-content-platform-showcase)**
+**[View the SEO, AEO & Search Intelligence showcase →](https://github.com/kaseypelchy-ops/seo-aeo-content-platform-showcase)**
 
 ---
 
@@ -154,11 +154,11 @@ Matched locations are deduplicated, normalized, enriched with selected geographi
 
 The cloud workflow also includes generation-aware duplicate protection, processing locks, stale-lock recovery, lineage tracking, and optional cost-controlled geocoding fallback.
 
-**Selected engineering work:** geometry parsing and repair Â· coordinate transformations Â· bounding-box filtering Â· DuckDB query optimization Â· point-in-polygon analysis Â· streaming record processing Â· normalization Â· deduplication Â· processing locks Â· stale-lock recovery Â· lineage tracking Â· cloud automation
+**Selected engineering work:** geometry parsing and repair · coordinate transformations · bounding-box filtering · DuckDB query optimization · point-in-polygon analysis · streaming record processing · normalization · deduplication · processing locks · stale-lock recovery · lineage tracking · cloud automation
 
-**Stack:** Python Â· DuckDB Â· SQL Â· Shapely Â· PyProj Â· Google Cloud Â· KML / KMZ Â· FCC Broadband Fabric
+**Stack:** Python · DuckDB · SQL · Shapely · PyProj · Google Cloud · KML / KMZ · FCC Broadband Fabric
 
-**[View the Fiber Mapping showcase â†’](https://github.com/kaseypelchy-ops/fiber-service-area-mapping-showcase)**
+**[View the Fiber Mapping showcase →](https://github.com/kaseypelchy-ops/fiber-service-area-mapping-showcase)**
 
 ---
 
@@ -225,7 +225,7 @@ A technically correct system still fails if the person using it cannot understan
 
 # What I Bring
 
-I am comfortable moving between the business and technical sides of a problem â€” from defining the objective and workflow to modeling the data, designing the architecture, building the system, validating it, and using the resulting information to support operational decisions.
+I am comfortable moving between the business and technical sides of a problem — from defining the objective and workflow to modeling the data, designing the architecture, building the system, validating it, and using the resulting information to support operational decisions.
 
 My background in marketing and operations shapes how I approach software, data, and process design. I understand the customer-acquisition and lifecycle side of the work as well as the systems required to support it.
 
@@ -265,6 +265,6 @@ The goal is to demonstrate the engineering approach without exposing private sys
 
 ## Connect
 
-**[Interactive Portfolio â†’](https://kaseys-portfolio.vercel.app)**  
-**[GitHub â†’](https://github.com/kaseypelchy-ops)**  
-**[LinkedIn â†’](https://www.linkedin.com/in/kaseypelchy19/)**
+**[Interactive Portfolio →](https://kaseys-portfolio.vercel.app)**  
+**[GitHub →](https://github.com/kaseypelchy-ops)**  
+**[LinkedIn →](https://www.linkedin.com/in/kaseypelchy19/)**
